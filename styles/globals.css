@@ -92,9 +92,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
-@media screen and (max-width: 912px) {
-  .navig {
-    display: none !important;
-  }
-}

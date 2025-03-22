@@ -19,7 +19,7 @@ export default function Home() {
         <Link href="/" className="text-4xl font-bold">
           Ekomobong Archibong
         </Link>
-        <div className="flex items-center gap-6 navig">
+        <div className="flex items-center gap-6 hidden md:block">
           <button onClick={() => scrollToSection("about")} className="text-white hover:text-gray-600 transition-colors">
             About
           </button>
