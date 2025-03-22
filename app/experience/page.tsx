@@ -9,6 +9,8 @@ export default function ExperiencePage() {
         <Link href="/" className="text-4xl font-bold text-white">
           Ekomobong Archibong
         </Link>
+        <div class="flex justify-center"><div class="">
+      
         <div className="md:flex items-center gap-6 hidden">
           <Link href="/#about" className="text-white hover:text-gray-400 transition-colors">
             About
@@ -28,6 +30,8 @@ export default function ExperiencePage() {
           >
             Contact Me
           </Link>
+        </div>
+        </div>
         </div>
       </nav>
 
