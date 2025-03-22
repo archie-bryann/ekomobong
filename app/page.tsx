@@ -70,7 +70,7 @@ export default function Home() {
               View Projects <ArrowRight size={18} />
             </button>
             <Link
-              href="https://drive.google.com/file/d/1jVuJJKHrinSNfFsnlT-1fc9xajyHtTbS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ScUWc76R4B44ox2OXU82Kgq1QLPD8qn5/view?usp=sharing"
               target="_blank"
               className="border-2 border-white px-8 py-3 rounded-md flex items-center gap-2 transition-colors"
             >
