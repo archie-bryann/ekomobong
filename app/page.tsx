@@ -59,7 +59,7 @@ export default function Home() {
         <div className="flex-1">
           <h1 className="text-6xl font-bold leading-tight mb-6">Full Stack Developer</h1>
           <p className="text-xl mb-8 max-w-2xl">
-            Building innovative web applications with React, Next.js, and Node.js. Founder of Platle - an all-in-one
+            Building innovative web applications with React, Next.js, and Node.js. Founder of Platle - an all-in-one AI
             tool for students.
           </p>
           <div className="flex gap-4">
