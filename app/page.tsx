@@ -176,7 +176,7 @@ export default function Home() {
             <div className="text-center">
               <Link
                 href="/experience"
-                className="inline-flex items-center gap-2 border-2 border-white px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
+                className="inline-flex items-center gap-2 border-2 border-white px-6 py-3 rounded-md transition-colors"
               >
                 View More Experience <ArrowRight size={18} />
               </Link>
