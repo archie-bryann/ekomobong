@@ -72,7 +72,7 @@ export default function Home() {
             <Link
               href="https://drive.google.com/file/d/1jVuJJKHrinSNfFsnlT-1fc9xajyHtTbS/view?usp=sharing"
               target="_blank"
-              className="border-2 border-white px-8 py-3 rounded-md flex items-center gap-2 hover:bg-gray-100 transition-colors"
+              className="border-2 border-white px-8 py-3 rounded-md flex items-center gap-2 transition-colors"
             >
               Download CV <Download size={18} />
             </Link>
