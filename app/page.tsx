@@ -201,6 +201,8 @@ export default function Home() {
                   "React Native",
                   "Node/Express.js",
                   "Ionic-React",
+                  "MUI",
+                  "Tailwind CSS",
                   "HTML",
                   "CSS",
                   "JavaScript",
