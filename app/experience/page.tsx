@@ -32,7 +32,8 @@ export default function ExperiencePage() {
         </div>
       </nav>
 
-      {/* <div className="flex justify-center"><div className=""> */}
+      <div className="flex justify-center">
+        <div className=""> 
 
       <div className="container mx-auto px-4 py-12">
         <Link
@@ -182,8 +183,11 @@ export default function ExperiencePage() {
               </li>
             </ul>
           </div>
+
         </div>
       </div>
+
+      </div></div>
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 mt-20">
