@@ -131,6 +131,7 @@ export default function Home() {
               <ul className="list-disc list-inside space-y-2">
                 <li>Built platle.com - an all-in-one AI tool for students.</li>
                 <li>Made use of React, Express.js, MongoDB, Redis & Socket.io to develop the application.</li>
+                <li>Utilized OpenAI APIs to enable students to research and generate study materials efficiently</li>
                 <li>
                   Deployed the frontend, backend, and background workers on PM2 with reverse proxies using Nginx on an
                   Ubuntu Linux server.
@@ -240,6 +241,7 @@ export default function Home() {
                   "Linux",
                   "Unix",
                   "Windows",
+                  "OpenAI",
                   "GCP",
                   "Azure",
                   "AWS",
