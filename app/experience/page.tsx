@@ -32,7 +32,7 @@ export default function ExperiencePage() {
         </div>
       </nav>
 
-      <div className="flex justify-center"><div className="">
+      {/* <div className="flex justify-center"><div className=""> */}
 
       <div className="container mx-auto px-4 py-12">
         <Link
@@ -67,8 +67,8 @@ export default function ExperiencePage() {
               </li>
             </ul>
           </div>
-          </div>
-          </div>
+          {/* </div>
+          </div> */}
 
           {/* Punch Group */}
           <div className="border-l-4 border-white pl-6 relative">
