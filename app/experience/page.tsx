@@ -52,7 +52,7 @@ export default function ExperiencePage() {
             </div>
             <p className="text-gray-400 mb-4">Abuja, Nigeria</p>
             <ul className="list-disc list-inside space-y-2">
-              <li>Built platle.com - an all-in-one tool for students.</li>
+              <li>Built platle.com - an all-in-one AI tool for students.</li>
               <li>Made use of React, Express.js, MongoDB, Redis & Socket.io to develop the application.</li>
               <li>
                 Deployed the frontend, backend, and background workers on PM2 with reverse proxies using Nginx on an
