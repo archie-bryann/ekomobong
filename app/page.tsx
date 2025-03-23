@@ -25,7 +25,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="container mx-auto px-4 py-6 flex justify-between items-center" style ={{ paddingTop:"2.5rem" }}>
         <Link href="/" className="text-4xl headerTitle">
-          <span className = "headerTitle">Ekomobong Archibong</span>
+          Ekomobong Archibong
         </Link>
         <div className="md:flex items-center gap-6 hidden">
           <button onClick={() => scrollToSection("about")} className="text-white hover:text-gray-600 transition-colors">

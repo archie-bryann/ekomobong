@@ -50,8 +50,16 @@
   @apply border-border;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   @apply bg-background text-foreground;
+}
+
+.headerTitle {
+  font-family: 'Pacifico' !important;
+  font-weight: 400 !important;
 }
 
 html {
