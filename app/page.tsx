@@ -3,8 +3,16 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Github, Linkedin, Mail, ArrowRight, Download } from "lucide-react"
+import ParticlesBackground from "@/components/ui/particles-background"
+import { useEffect, useState } from "react"
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id)
     if (element) {
@@ -56,6 +64,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center gap-12">
+      {mounted && <ParticlesBackground />}
         <div className="flex-1">
           <h1 className="text-6xl font-bold leading-tight mb-6">Full Stack Developer</h1>
           <p className="text-xl mb-8 max-w-2xl">
