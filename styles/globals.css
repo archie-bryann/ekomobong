@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.headerTitle {
+  font-family: 'Pacifico' !important;
+  font-weight: 400 !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
