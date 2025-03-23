@@ -2,15 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.headerTitle {
-  font-family: 'Pacifico' !important;
-  font-weight: 400 !important;
 }
 
 @layer utilities {

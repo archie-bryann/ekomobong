@@ -5,6 +5,14 @@ import Link from "next/link"
 import { Github, Linkedin, Mail, ArrowRight, Download } from "lucide-react"
 import ParticlesBackground from "@/components/ui/particles-background"
 import { useEffect, useState } from "react"
+import { Inter, Pacifico } from "next/font/google"
+
+const pacifico = Pacifico({ 
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -24,7 +32,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* Navigation */}
       <nav className="container mx-auto px-4 py-6 flex justify-between items-center" style ={{ paddingTop:"2.5rem" }}>
-        <Link href="/" className="text-4xl headerTitle">
+        <Link href="/" className={`text-4xl ${pacifico.className}`}>
           Ekomobong Archibong
         </Link>
         <div className="md:flex items-center gap-6 hidden">
