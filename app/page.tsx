@@ -24,7 +24,10 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       {/* Navigation */}
       <nav className="container mx-auto px-4 py-6 flex justify-between items-center" style ={{ paddingTop:"2.5rem" }}>
-        <Link href="/" className="text-4xl font-bold">
+        <Link href="/" className="text-4xl" style = {{
+          fontFamily: "Pacifico",
+          fontWeight: 400
+        }}>
           Ekomobong Archibong
         </Link>
         <div className="md:flex items-center gap-6 hidden">
