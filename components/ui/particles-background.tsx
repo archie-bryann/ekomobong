@@ -13,10 +13,12 @@ interface Particle {
 
 export default function ParticlesBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const canvas = canvasRef.current
-    if (!canvas) return
+    const container = containerRef.current
+    if (!canvas || !container) return
 
     const ctx = canvas.getContext("2d")
     if (!ctx) return
@@ -25,14 +27,16 @@ export default function ParticlesBackground() {
     let particles: Particle[] = []
 
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth
-      canvas.height = window.innerHeight
+      // Use the container's dimensions instead of window dimensions
+      const rect = container.getBoundingClientRect()
+      canvas.width = rect.width
+      canvas.height = rect.height
       initParticles()
     }
 
     const initParticles = () => {
       particles = []
-      const particleCount = Math.floor((window.innerWidth * window.innerHeight) / 9000)
+      const particleCount = Math.floor((canvas.width * canvas.height) / 9000)
 
       for (let i = 0; i < particleCount; i++) {
         particles.push({
@@ -97,16 +101,27 @@ export default function ParticlesBackground() {
       animationFrameId = requestAnimationFrame(animate)
     }
 
-    window.addEventListener("resize", resizeCanvas)
+    // Initial setup
     resizeCanvas()
     animate()
 
+    // Handle resize
+    const handleResize = () => {
+      resizeCanvas()
+    }
+
+    window.addEventListener("resize", handleResize)
+
     return () => {
-      window.removeEventListener("resize", resizeCanvas)
+      window.removeEventListener("resize", handleResize)
       cancelAnimationFrame(animationFrameId)
     }
   }, [])
 
-  return <canvas ref={canvasRef} className="absolute inset-0 z-0 pointer-events-none" style={{ opacity: 0.7 }} />
+  return (
+    <div ref={containerRef} className="absolute inset-0 overflow-hidden pointer-events-none">
+      <canvas ref={canvasRef} className="w-full h-full" style={{ opacity: 0.7 }} />
+    </div>
+  )
 }
 
