@@ -259,6 +259,7 @@ export default function Home() {
                   "Firebase",
                   "Docker",
                   "Kubernetes",
+                  "Kafka",
                   "Redis",
                   "VS Code",
                 ].map((skill) => (
