@@ -319,9 +319,10 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">React</span>
-                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Redux</span>
-                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Tailwind CSS</span>
-                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">REST API</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">CSS</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">SCSS</span>
+                  {/* <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Tailwind CSS</span> */}
+                  {/* <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">REST API</span> */}
                 </div>
                 <div className="space-y-2">
                   <Link
@@ -346,6 +347,36 @@ export default function Home() {
                     Driver Dashboard <ArrowRight size={16} />
                   </Link>
                 </div>
+              </div>
+            </div>
+
+            {/* LoveSet */}
+            <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="h-48 bg-gray-800 relative">
+                <Image src="https://fanbear-app.s3-accelerate.amazonaws.com/1901x971_1742640441116942531204.png" alt="Auxcar" fill className="object-cover" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">LoveSet</h3>
+                <p className="text-gray-400 mb-4">
+                  A platform that enables users to discover movies and shows tailored to their taste. Users ca swipe right on what they love, left on what they don't and thus get a personalized recommendation every time.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">React</span>
+                <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">CSS</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Express.js</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">MongoDB</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Redis</span>
+                  <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Socket.io</span>
+                  {/* <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">Tailwind CSS</span> */}
+                  {/* <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">REST API</span> */}
+                </div>
+                <Link
+                  href="https://loveset.platle.com"
+                  target="_blank"
+                  className="text-white font-medium flex items-center gap-1 hover:underline"
+                >
+                  Visit Website <ArrowRight size={16} />
+                </Link>
               </div>
             </div>
           </div>
