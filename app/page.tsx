@@ -358,7 +358,7 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">LoveSet</h3>
                 <p className="text-gray-400 mb-4">
-                  A platform that enables users to discover movies and shows tailored to their taste. Users ca swipe right on what they love, left on what they don't and thus get a personalized recommendation every time.
+                  A platform that enables users to discover movies and shows tailored to their taste. Users can swipe right on what they love, left on what they don't and thus get a personalized recommendation every time.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-gray-800 px-2 py-1 rounded-md text-xs">React</span>
