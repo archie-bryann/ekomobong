@@ -353,7 +353,7 @@ export default function Home() {
             {/* LoveSet */}
             <div className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="h-48 bg-gray-800 relative">
-                <Image src="https://fanbear-app.s3-accelerate.amazonaws.com/1901x971_1742640441116942531204.png" alt="Auxcar" fill className="object-cover" />
+                <Image src="https://fanbear-app.s3-accelerate.amazonaws.com/1920x971_1748289294834752824550.png" alt="Auxcar" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">LoveSet</h3>
