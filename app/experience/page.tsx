@@ -169,7 +169,7 @@ export default function ExperiencePage() {
             <h3 className="text-2xl font-bold">Backend Developer</h3>
             <div className="flex justify-between items-center mb-2">
               <p className="text-xl">Sekani-Tech Company Limited</p>
-              <p className="text-gray-400">June 2019 – Sept 2021</p>
+              <p className="text-gray-400">June 2021 – Sept 2021</p>
             </div>
             <p className="text-gray-400 mb-4">Abuja, Nigeria</p>
             <ul className="list-disc list-inside space-y-2">
