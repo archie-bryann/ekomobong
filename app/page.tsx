@@ -68,7 +68,7 @@ export default function Home() {
         <div className="flex-1">
           <h1 className="text-6xl font-bold leading-tight mb-6">Full Stack Developer</h1>
           <p className="text-xl mb-8 max-w-2xl">
-            Building innovative web applications with React & Ruby on Rails.
+            Building innovative web applications with React, Node.js & Ruby on Rails.
           </p>
           <div className="flex gap-4">
             <button
@@ -105,7 +105,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-6">
-              I'm Ekomobong Archibong, a passionate Full Stack Developer with expertise in React, Next.js, Node.js, and
+              I'm Ekomobong Archibong, a passionate Full Stack Developer with expertise in React, Next.js, Node.js, Ruby on Rails and
               various other technologies. I specialize in building scalable web applications and have experience working
               with both startups and established companies.
             </p>
