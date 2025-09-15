@@ -223,6 +223,7 @@ export default function Home() {
                   "Next.js",
                   "React Native",
                   "Node/Express.js",
+                  "Ruby on Rails",
                   "Ionic-React",
                   "MUI",
                   "Tailwind CSS",
