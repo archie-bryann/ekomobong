@@ -68,8 +68,7 @@ export default function Home() {
         <div className="flex-1">
           <h1 className="text-6xl font-bold leading-tight mb-6">Full Stack Developer</h1>
           <p className="text-xl mb-8 max-w-2xl">
-            Building innovative web applications with React, Next.js, and Node.js. Founder of Platle - an all-in-one AI
-            tool for students.
+            Building innovative web applications with React, Node.js & Ruby on Rails.
           </p>
           <div className="flex gap-4">
             <button
@@ -128,13 +127,28 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12 text-center">Work Experience</h2>
 
           <div className="max-w-4xl mx-auto space-y-12">
+            {/* Next Wave Partners */}
+            <div className="border-l-4 border-white pl-6 relative">
+  <div className="absolute w-4 h-4 bg-white rounded-full -left-[10px] top-1"></div>
+  <h3 className="text-2xl font-bold">Full Stack Developer</h3>
+  <div className="flex justify-between items-center mb-2">
+    <p className="text-xl">Next Wave Partners</p>
+    <p className="text-gray-400">Sept 2025 – Present</p>
+  </div>
+  <p className="text-gray-400 mb-4">Las Vegas, Nevada</p>
+  <ul className="list-disc list-inside space-y-2">
+    <li>Developing full-stack web applications using Ruby on Rails backend and React/TypeScript frontend.</li>
+    <li>Working with PostgreSQL database and AWS infrastructure.</li>
+  </ul>
+</div>
+
             {/* Platle */}
             <div className="border-l-4 border-white pl-6 relative">
               <div className="absolute w-4 h-4 bg-white rounded-full -left-[10px] top-1"></div>
               <h3 className="text-2xl font-bold">Founder</h3>
               <div className="flex justify-between items-center mb-2">
                 <p className="text-xl">Platle</p>
-                <p className="text-gray-400">Dec 2023 – Present</p>
+                <p className="text-gray-400">Dec 2023 – Sept 2025</p>
               </div>
               <p className="text-gray-400 mb-4">Abuja, Nigeria</p>
               <ul className="list-disc list-inside space-y-2">
