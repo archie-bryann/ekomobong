@@ -68,7 +68,7 @@ export default function Home() {
         <div className="flex-1">
           <h1 className="text-6xl font-bold leading-tight mb-6">Full Stack Developer</h1>
           <p className="text-xl mb-8 max-w-2xl">
-            Building innovative web applications with React, Node.js & Ruby on Rails.
+            Building innovative web applications with React & Ruby on Rails.
           </p>
           <div className="flex gap-4">
             <button
