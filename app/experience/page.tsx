@@ -57,8 +57,8 @@ export default function ExperiencePage() {
   </div>
   <p className="text-gray-400 mb-4">Las Vegas, Nevada</p>
   <ul className="list-disc list-inside space-y-2">
-    <li>Developing full-stack web applications using Ruby on Rails backend and React/TypeScript frontend.</li>
-    <li>Working with PostgreSQL database and AWS infrastructure.</li>
+     <li>Building scalable fintech platforms with Ruby on Rails backend and React frontend for venture capital operations.</li>
+    <li>Implementing PostgreSQL databases, AWS infrastructure, and Stripe payment systems for investment workflows.</li>
   </ul>
 </div>
 
