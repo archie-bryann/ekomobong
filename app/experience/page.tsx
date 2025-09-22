@@ -190,7 +190,7 @@ export default function ExperiencePage() {
             <p className="text-gray-400 mb-4">Abuja, Nigeria</p>
             <ul className="list-disc list-inside space-y-2">
               <li>
-                Developed and maintained core-banking applications for African businesses consisting mainly of
+                Developed and maintained PHP-based core-banking applications for African businesses consisting mainly of
                 microfinance banks with high system functionalities which resulted in financial profitability.
               </li>
               <li>

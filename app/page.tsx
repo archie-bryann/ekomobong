@@ -224,6 +224,7 @@ export default function Home() {
                   "React Native",
                   "Node/Express.js",
                   "Ruby on Rails",
+                  "PHP",
                   "Ionic-React",
                   "MUI",
                   "Tailwind CSS",
