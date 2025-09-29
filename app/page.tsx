@@ -110,8 +110,7 @@ export default function Home() {
               with both startups and established companies.
             </p>
             <p className="text-lg mb-6">
-              Currently, I'm the Founder of Platle, an all-in-one AI tool for students that helps with learning,
-              studying, writing notes, setting goals, and collaborating with peers.
+              Currently, I'm the lead full stack developer at Next Wave Partners, building scalable platforms with Ruby on Rails and React frontend for the venture capital operations.
             </p>
             <p className="text-lg">
               With a strong background in full-stack development, I've worked on various projects ranging from
