@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Ekomobong Archibong | Full Stack Developer",
-  description: "Personal portfolio of Ekomobong Archibong, a Full Stack Developer and Founder of Platle.",
+  title: "Ekomobong Archibong | Full-Stack Software Engineer",
+  description: "Ekomobong Archibong, full-stack software engineer: fintech, payments, AI, ML, embedded and DevOps.",
     generator: 'v0.dev'
 }
 
