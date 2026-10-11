@@ -16,6 +16,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async rewrites() {
+    return { beforeFiles: [{ source: '/', destination: '/home.html' }] }
+  },
+  async redirects() {
+    return [{ source: '/experience', destination: '/#experience', permanent: true }]
+  },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
