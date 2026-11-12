@@ -599,10 +599,19 @@ tbody th .dot {
     min-height: 0;
   }
   .hero__img {
-    object-position: 70% 50%;
+    inset: 0 0 auto 0;
+    height: 260px;
+    object-position: 50% 40%;
+  }
+  .hero::after {
+    background: linear-gradient(
+      to bottom,
+      transparent 90px,
+      var(--hero-surface) 260px
+    );
   }
   .hero__copy {
-    padding-top: 96px;
+    padding-top: 200px;
     padding-bottom: 20px;
   }
   .hero:not(:has(.hero__img)) .hero__copy {
@@ -617,6 +626,14 @@ tbody th .dot {
     position: static;
     width: auto;
     margin: 0 12px 12px;
+  }
+  .hero .callout .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero .callout .btn {
+    justify-self: stretch;
+    justify-content: center;
   }
 }
 /* @component callout */
